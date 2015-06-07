@@ -33,7 +33,7 @@ function edd_empty_cart_settings( $settings ) {
 		array(
 			'id'   => 'edd_empty_cart_downloads_shortcode',
 			'name' => __( 'Empty Cart Downloads Shortcode', 'edd-empty-cart' ),
-			'desc' => sprintf( __( 'The exact %1$s shortcode %2$s to output in the empty cart. Configure the shortcode just as you would in a post or page. ', 'edd-empty-cart' ), '<strong>[downloads]</strong>', '(<a href="http://docs.easydigitaldownloads.com/article/224-downloads" target="_blank">?</a>)' ),
+			'desc' => sprintf( __( 'The exact %1$s shortcode %2$s to output in the empty cart. Configure the shortcode just as you would in a post or page. Leave blank to show no %3$s.', 'edd-empty-cart' ), '<strong>[downloads]</strong>', '(<a href="http://docs.easydigitaldownloads.com/article/224-downloads" target="_blank">?</a>)', edd_get_label_plural() ),
 			'type' => 'text',
 			'size' => 'large',
 			'std'  => '[downloads]',

@@ -41,7 +41,7 @@ function edd_empty_cart_content( $content ) {
 	}
 
 	if ( !isset( $empty_cart_downloads ) ) {
-		echo '<div class="edd-empty-cart-downloads">[downloads]</div>';
+		echo '<div class="edd-empty-cart-downloads">' . do_shortcode( '[downloads]' ) . '</div>';
 	} else {
 		echo '<div class="edd-empty-cart-downloads">' . do_shortcode( $empty_cart_downloads ) . '</div>';
 	}

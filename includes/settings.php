@@ -36,7 +36,7 @@ function edd_empty_cart_settings( $settings ) {
 			'desc' => sprintf( __( 'The exact %1$s shortcode %2$s to output in the empty cart. Configure the shortcode just as you would in a post or page. ', 'edd-empty-cart' ), '<strong>[downloads]</strong>', '(<a href="http://docs.easydigitaldownloads.com/article/224-downloads" target="_blank">?</a>)' ),
 			'type' => 'text',
 			'size' => 'large',
-			'std'  => __( '[downloads]', 'edd-empty-cart' ),
+			'std'  => '[downloads]',
 		),
 	);
 

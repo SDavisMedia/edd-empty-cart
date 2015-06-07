@@ -156,7 +156,7 @@ function EDD_Empty_Cart_load() {
 			require_once 'includes/class.edd-empty-cart-activation.php';
 		}
 
-		$activation = new EDD_Extension_Activation( plugin_dir_path( __FILE__ ), basename( __FILE__ ) );
+		$activation = new EDD_Empty_Cart_Activation( plugin_dir_path( __FILE__ ), basename( __FILE__ ) );
 		$activation = $activation->run();
 		return EDD_Empty_Cart::instance();
 	} else {

@@ -30,19 +30,19 @@ function edd_empty_cart_content( $content ) {
 
 	if ( !isset( $empty_cart_title ) ) {
 		echo '<h3 class="edd-empty-cart-title">' . __( 'Your cart is empty.', 'edd-empty-cart' ) . '</h3>';
-	} else {
+	} elseif ( !empty( $empty_cart_title ) ) {
 		echo '<h3 class="edd-empty-cart-title">' . $empty_cart_title . '</h3>';
 	}
 
 	if ( !isset( $empty_cart_content ) ) {
 		echo '<div class="edd-empty-cart-content">' . wpautop( __( 'It appears you do not have any items in your cart. Perhaps you would be interested in one of the items below.', 'edd-empty-cart' ) ) . '</div>';
-	} else {
+	} elseif ( !empty( $empty_cart_content ) ) {
 		echo '<div class="edd-empty-cart-content">' . wpautop( $empty_cart_content ) . '</div>';
 	}
 
 	if ( !isset( $empty_cart_downloads ) ) {
 		echo '<div class="edd-empty-cart-downloads">' . do_shortcode( '[downloads]' ) . '</div>';
-	} else {
+	} elseif ( !empty( $empty_cart_downloads ) ) {
 		echo '<div class="edd-empty-cart-downloads">' . do_shortcode( $empty_cart_downloads ) . '</div>';
 	}
 

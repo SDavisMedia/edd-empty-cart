@@ -2,6 +2,17 @@ EDD Empty Cart
 =====================
 Built for use with the [Easy Digital Downloads](https://easydigitaldownloads.com/) plugin, this extension provides settings for the display of the [download_checkout] shortcode when no items are in the cart.
 
+### Screenshots
+---
+
+#### Settings
+
+![EDD Extensions Settings](http://www.sdavismedia.com/wp-content/uploads/2015/06/edd-empty-cart-settings.png)
+
+#### Empty Cart
+
+![EDD Empty Cart Display](http://www.sdavismedia.com/wp-content/uploads/2015/06/edd-empty-cart-screenshot.png)
+
 ### Contributing
 ---
 

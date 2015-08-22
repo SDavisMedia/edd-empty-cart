@@ -3,8 +3,8 @@ Contributors: sdavis2702
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=52HQDSEUA542S
 Tags: easy digital downloads, edd, shopping cart, checkout, ecommerce
 Requires at least: 3.9.2
-Tested up to: 4.2.2
-Stable tag: 1.0.0
+Tested up to: 4.3
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,9 @@ You can. EDD Empty Cart will override Vendd's empty cart settings automatically.
 2. Example Output
 
 == Changelog ==
+
+= 1.0.1 =
+* Remove EDD licensing code
 
 = 1.0.0 =
 * First stable release

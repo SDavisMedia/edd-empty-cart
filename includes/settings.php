@@ -1,11 +1,22 @@
 <?php
 /**
+* Register Empty Cart settings section
+*
+* @return array
+*/
+function edd_empty_cart_settings_section( $sections ) {
+	$sections['eddec-settings'] = __( 'Empty Cart', 'edd-empty-cart' );
+	return $sections;
+}
+add_filter( 'edd_settings_sections_extensions', 'edd_empty_cart_settings_section' );
+
+
+/**
  * Settings
  *
  * @package     EDD\Empty Cart\Functions
  * @since       1.0.0
  */
-
 function edd_empty_cart_settings( $settings ) {
 
 	$empty_cart_settings = array(
@@ -39,7 +50,9 @@ function edd_empty_cart_settings( $settings ) {
 			'std'  => '[downloads]',
 		),
 	);
-
+	if ( version_compare( EDD_VERSION, 2.5, '>=' ) ) {
+		$empty_cart_settings = array( 'eddec-settings' => $empty_cart_settings );
+	}
 	return array_merge( $settings, $empty_cart_settings );
 }
 add_filter( 'edd_settings_extensions', 'edd_empty_cart_settings', 999, 1 );

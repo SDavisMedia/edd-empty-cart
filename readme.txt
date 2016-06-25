@@ -3,8 +3,8 @@ Contributors: sdavis2702
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=52HQDSEUA542S
 Tags: easy digital downloads, edd, shopping cart, checkout, ecommerce
 Requires at least: 3.9.2
-Tested up to: 4.3
-Stable tag: 1.0.1
+Tested up to: 4.6
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ Follow EDD Empty Cart’s development on [Github](https://github.com/sdavismedia
 1. Make sure you have [Easy Digital Downloads](https://wordpress.org/plugins/easy-digital-downloads/) installed.
 2. Upload `edd-empty-cart` to the `/wp-content/plugins/` directory.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
-4. Navigate to Downloads -> Settings -> Extensions (tab) in your WordPress dashboard and find the "Empty Cart Settings" section.
+4. Navigate to Downloads -> Settings -> Extensions (tab) -> Empty Cart (section) in your WordPress dashboard.
 5. Adjust your settings and save. You can see the output by viewing your EDD checkout page when there are no items in the cart.
 
 == Frequently Asked Questions ==
@@ -36,6 +36,9 @@ You can. EDD Empty Cart will override Vendd's empty cart settings automatically.
 2. Example Output
 
 == Changelog ==
+
+= 1.0.2 =
+* Move EDD settings to dedicated Extensions tab section
 
 = 1.0.1 =
 * Remove EDD licensing code

@@ -1,9 +1,10 @@
 <?php
 /**
-* Register Empty Cart settings section
-*
-* @return array
-*/
+ * Register Empty Cart settings section
+ *
+ * @since       1.0.2
+ * @return array
+ */
 function edd_empty_cart_settings_section( $sections ) {
 	$sections['eddec-settings'] = __( 'Empty Cart', 'edd-empty-cart' );
 	return $sections;

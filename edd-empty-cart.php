@@ -3,7 +3,7 @@
  * Plugin Name: Easy Digital Downloads - Empty Cart
  * Plugin URI: https://wordpress.org/plugins/easy-digital-downloads-empty-cart/
  * Description: Built for use with the Easy Digital Downloads plugin, this extension provides settings for the display of the [download_checkout] shortcode when no items are in the cart.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Sean Davis
  * Author URI: http://sdavismedia.com
  * Text Domain: edd-empty-cart
@@ -63,7 +63,7 @@ if( !class_exists( 'EDD_Empty_Cart' ) ) {
 		private function setup_constants() {
 
 			// Plugin version
-			define( 'EDD_EMPTY_CART_VER', '1.0.1' );
+			define( 'EDD_EMPTY_CART_VER', '1.0.2' );
 
 			// Plugin path
 			define( 'EDD_EMPTY_CART_DIR', plugin_dir_path( __FILE__ ) );
@@ -79,7 +79,7 @@ if( !class_exists( 'EDD_Empty_Cart' ) ) {
 		 * @access      private
 		 * @since       1.0.0
 		 * @return      void
-		 */ 
+		 */
 		private function includes() {
 
 			// Include functions
